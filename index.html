@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You ❤️</title>
+  <style>
+    body {
+      background: #ffe6ee;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    h1 {
+      color: #ff4d6d;
+    }
+    button {
+      padding: 12px 25px;
+      margin: 10px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .yes {
+      background: #ff4d6d;
+      color: white;
+    }
+    .no {
+      background: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Will you be my Valentine? 💖</h1>
+  <p>I promise bad jokes, warm hugs, and lots of love.</p>
+  <button class="yes" onclick="yes()">Yes 💕</button>
+  <button class="no" onclick="no()">No 🙈</button>
+</div>
+
+<script>
+  function yes() {
+    alert("YAY! 💘 I knew you'd say yes 😍");
+  }
+  function no() {
+    alert("Wrong answer 😌 Try again ❤️");
+  }
+</script>
+
+</body>
+</html>
